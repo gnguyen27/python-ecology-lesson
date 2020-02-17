@@ -302,6 +302,20 @@ structure one at a time:
 3
 ~~~
 {: .output}
+We can use a `for` loop over a list with an if/else and modulo operator to find even number in a list
+~~~
+>>>>for num in numbers:
+...     if (num %2 == 0) :
+...          print(num)
+...
+~~~
+{: .language-python}
+
+~~~
+2
+~~~
+{: .output}
+
 
 **Indentation** is very important in Python. Note that the second line in the
 example above is indented. Just like three chevrons `>>>` indicate an
@@ -460,6 +474,7 @@ print(z)
 42
 ~~~
 {: .output}
+
 
 {% include links.md %}
 
